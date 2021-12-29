@@ -24,8 +24,6 @@ author = 'Jaya'
 # The full version, including alpha/beta/rc tags
 release = '0.0.1'
 
-latex_use_xindy = False
-
 # -- General configuration ---------------------------------------------------
 
 # Add any Sphinx extension module names here, as strings. They can be
