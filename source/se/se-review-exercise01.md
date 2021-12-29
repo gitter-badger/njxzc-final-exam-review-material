@@ -2,7 +2,6 @@
 
 ## 书本习题
 
-<!--more-->
 
 书本P53题4、题5
 详情，见[软件工程：第 3 周课堂笔记 01](https://hexo.gujiakai.top/2021/09/se-notes/se-week03-01/#%E8%AF%BE%E5%90%8E%E8%A1%A5%E5%85%85)

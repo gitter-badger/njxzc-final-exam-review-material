@@ -5,8 +5,6 @@
 
 > 注：没有的解析的题目，自己可以自行百度搜索，或者看书理解。
 
-<!--more-->
-
 ## 1.单选题
 
 ![image-20211227073736103](https://gitee.com/gujiakai/pic-go-typora02/raw/master/img/202112270737287.png)
