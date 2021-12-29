@@ -24,6 +24,7 @@ author = 'Jaya'
 # The full version, including alpha/beta/rc tags
 release = '0.0.1'
 
+latex_use_xindy = False
 
 # -- General configuration ---------------------------------------------------
 
@@ -31,14 +32,6 @@ release = '0.0.1'
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
 extensions = ['recommonmark','sphinx_markdown_tables']
-
-from recommonmark.parser import CommonMarkParser
-
-source_parsers = {
-    '.md': CommonMarkParser,
-}
-
-source_suffix = ['.rst', '.md']
 
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']
@@ -61,13 +54,3 @@ html_favicon = './_static/img/favicon.png'
 # so a file named "default.css" will overwrite the builtin "default.css".
 html_static_path = ['_static']
 
-import recommonmark
-from recommonmark.transform import AutoStructify
-
-# At the bottom of conf.py
-def setup(app):
-    app.add_config_value('recommonmark_config', {
-            'url_resolver': lambda url: github_doc_root + url,
-            'auto_toc_tree_section': 'Contents',
-            }, True)
-    app.add_transform(AutoStructify)
