@@ -7,7 +7,7 @@
 ============================================================
 
 .. toctree::
-   :maxdepth: 1
+   :maxdepth: 2
    :caption: Junior:
 
    junior-first-term/se/se-review-exercise01.md
