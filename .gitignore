@@ -1,1 +1,3 @@
 build/
+preview.bat
+deploy.sh
