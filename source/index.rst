@@ -7,7 +7,7 @@
 ============================================================
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
    :caption: 大三
 
    junior-first-term/index.rst
