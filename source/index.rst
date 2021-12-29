@@ -10,5 +10,7 @@
    :maxdepth: 1
    :caption: 大三
 
-   junior-first-term/index.rst
+   junior-first-term/se/se-review-exercise01.md
+   junior-first-term/cn/cn-review-exercise01.md
+   
 
