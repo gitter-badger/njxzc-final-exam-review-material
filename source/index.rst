@@ -10,7 +10,6 @@
    :maxdepth: 2
    :caption: 大三上:
 
-   se/se-review-exercise01
-   cn/cn-review-exercise01
+   
    
 
