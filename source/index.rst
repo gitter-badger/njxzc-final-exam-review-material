@@ -10,8 +10,8 @@
    :maxdepth: 2
    :caption: 大三上:
 
-   terms/junior-first-term/cn.md
-   terms/junior-first-term/se.md
+   terms/junior-first-term/cn-index.md
+   terms/junior-first-term/se-index.md
 
    
    
