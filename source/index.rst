@@ -8,7 +8,7 @@
 
 .. toctree::
    :maxdepth: 1
-   :caption: 大三
+   :caption: 大三:
 
    junior-first-term/index
    
