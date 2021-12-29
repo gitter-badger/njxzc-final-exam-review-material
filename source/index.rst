@@ -8,9 +8,9 @@
 
 .. toctree::
    :maxdepth: 1
-   :caption: 大三:
+   :caption: Junior:
 
-   junior-first-term/index
-   
+   junior-first-term/se/se-review-exercise01.md
+   junior-first-term/cn/cn-review-exercise01.md
    
 
