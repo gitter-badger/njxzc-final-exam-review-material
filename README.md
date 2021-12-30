@@ -1,3 +1,7 @@
+[文档地址，请戳我](https://njxzc.jaya.wiki/en/latest/) :point_left::point_left::point_left:   
+
+
+
 ## :sunny:  1.Reason
 
 大三上期末复习软件工程的时候，发现其他高校在GitHub上开源了他们学校的期末试题，我很受触动。期末试题虽然我不一定能获取到，但是期末复习期间，我做过的习题可以开源出来。这样子方便后人期末复习的同时，也能给自己在GitHub上积累一些开源项目的经验，于是便有了这仓库。
@@ -23,4 +27,17 @@ njxzc-final-exam-review-material
 ## :v:3.Contributor
 
 Jiakai Gu
+
+
+
+## :bell: 4.Update Log
+
+
+
+**2021.12**
+
+12.29：
+
++ 大三上：软件工程复习题(1)
++ 大三上：计算机网络复习题(1)
 
