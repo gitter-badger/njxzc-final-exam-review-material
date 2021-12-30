@@ -1,4 +1,4 @@
-[文档地址，请戳我](https://njxzc.jaya.wiki/en/latest/) :point_left::point_left::point_left:   
+[文档地址，请戳我](https://njxzc.jaya.wiki/en/latest/) :point_left: :point_left: :point_left:   
 
 
 
@@ -40,4 +40,5 @@ Jiakai Gu
 
 + 大三上：软件工程复习题(1)
 + 大三上：计算机网络复习题(1)
++ 大三上：软件工程复习题(2)
 
