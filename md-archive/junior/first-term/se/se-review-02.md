@@ -72,16 +72,76 @@ categories:
 在此之前需画出流图
 ```
 
+![image-20211230101858728](https://gitee.com/gujiakai/pic-go-typora02/raw/master/img/202112301018800.png)
 
+```
+流图中判定结点的数目为3，即结点编号为3、4、5的结点
+∵环形复杂度=流图中判定结点的数目+1
+∴环形复杂度=3+1=4
+```
 
+```
+由流图可得路径：
+1.①——②③——⑦——⑧
+2.①——②③——④——⑦——⑧
+3.①——②③——④——⑤——⑦——⑧
+4.①——②③——④——⑤——⑥——⑧
+```
 
-
-考察知识点：数据流程图
-
-![image-20211229091139147](https://gitee.com/gujiakai/pic-go-typora02/raw/master/img/202112290911227.png)
+```
+(3)测试用例：
+略(每条路径随便找一组数组测试即可)
+```
 
 
 
 考察知识点：判定树
 
 ![image-20211229091207130](https://gitee.com/gujiakai/pic-go-typora02/raw/master/img/202112290912207.png)
+
+```
+参考解答：
+设每月通话费为x
+```
+
+![image-20211230123642960](https://gitee.com/gujiakai/pic-go-typora02/raw/master/img/202112301236099.png)
+
+
+
+考察知识点：类图、用例图
+
+![image-20211230125341563](https://gitee.com/gujiakai/pic-go-typora02/raw/master/img/202112301253001.png)
+
+```
+(1)用例图：
+这道题目，没有参考答案可循，我也是自己看书理解作图的，如有问题，欢迎DM(Direct Message，私聊)！
+个人认为一个系统开发完毕后，自带管理员的账号、密码，因此图书管理员无需使用该系统的注册功能。
+```
+
+![image-20211230135715349](https://gitee.com/gujiakai/pic-go-typora02/raw/master/img/202112301357411.png)
+
+期末考试只要求会做UML的类图，故不考虑第二小问。
+
+因此第二小问用以下一小题来代替。
+
+```
+请按照下面描述，用UML提供的类图来建立对象模型。
+一个年级有多个班级
+一个班级有多名学生
+每个班级有一名班主任
+每个班级可能有一名副班主任
+```
+
+```
+分析：
+一共有5个类
+年级、班级、学生、班主任、副班主任
+年级的属性有年级ID和年级名，方法无
+班级的属性有班级ID和班级名，方法无
+学生的属性有学号、姓名、性别、年龄、班级ID、年级ID，方法有学习、玩耍
+班主任、副班主任的属性有教职工工号、教师名、性别、年龄、班级ID、年级ID，方法有教书、玩耍
+```
+
+<a href="https://gitee.com/gujiakai/pic-go-typora02/raw/master/img/202112301446254.png" style="color:red;border-bottom:none;">看不清楚图片，请戳我！</a>  :point_left:
+
+![image-20211230144655170](https://gitee.com/gujiakai/pic-go-typora02/raw/master/img/202112301446254.png)
