@@ -200,13 +200,15 @@ a.划分等价类并编号
 
 ```
 b.给出测试用例
-X								Y		N		预期结果
-50								50		1		取款成功
-2000、1000、1000、1000	  		  5000    4		  取款失败
-51、49						   100     2       取款失败	
-2500、2500					   5000    2       取款失败
-2000 2000 2000					6000    3       取款失败
 ```
+
+|           X            |  Y   |  N   | 预期结果 |
+| :--------------------: | :--: | :--: | :------: |
+|           50           |  50  |  1   | 取款成功 |
+| 2000、1000、1000、1000 | 5000 |  4   | 取款失败 |
+|         51、49         | 100  |  2   | 取款失败 |
+|       2500、2500       | 5000 |  2   | 取款失败 |
+|     2000 2000 2000     | 6000 |  3   | 取款失败 |
 
 
 
@@ -217,27 +219,31 @@ X								Y		N		预期结果
 ```
 
 ```c
-int test(int count,int flag)
+int test(int count, int flag)
 {
-	int temp=0;
-	while (count>0)
-	{
-		if (flag==0){
-			temp=count+100;
-			break;
-		}
-		else{
-            if (flag==1){
-                temp=temp+10;
+    int temp = 0;
+
+    while (count > 0)
+    {
+        if (flag == 0)
+        {
+            temp = count + 100;
+            break;
+        }
+        else
+        {
+            if (flag == 1)
+            {
+                temp = temp + 10;
             }
-            else{
-                temp=temp+20;
+            else
+            {
+                temp = temp + 20;
             }
         }
-     	count--;
-	}
-    
-	return temp;
+        count--;
+    }
+    return temp;
 }
 ```
 
