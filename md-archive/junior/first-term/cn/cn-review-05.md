@@ -309,7 +309,9 @@ no shutdown
 考察知识点：配置三层交换
 
 ```
-请你在交换机上分别创建VLAN10、VLAN20、VLAN30，接着将对应的主机划分到相应的VLAN，与此同时还得设置交换机与交换机之间的接口模式，最后对三层交换机进行配置，使得PC11能ping通PC21。
+请你在交换机上分别创建VLAN10、VLAN20、VLAN30，接着将对应的主机划分到相应
+的VLAN，与此同时还得设置交换机与交换机之间的接口模式，最后对三层交换机进行
+配置，使得PC11能ping通PC21。
 ```
 
 ![image-20220103211133417](https://gitee.com/gujiakai/pic-go-typora02/raw/master/img/202201032111529.png)
