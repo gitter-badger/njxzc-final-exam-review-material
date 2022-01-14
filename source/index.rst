@@ -12,7 +12,7 @@
 
    terms/junior-first-term/cn-index.md
    terms/junior-first-term/se-index.md
-
+   terms/junior-first-term/os-index.md
    
    
 
